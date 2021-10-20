@@ -8,7 +8,7 @@ function Index() {
         I am a sophomore currently studying Computer Information Sytsems at
         Molloy College!
         <p>
-          <img src={Molloy} />
+          <img src={Molloy} alt="Molloy College logo" />
         </p>
       </p>
       <h3> My hobbies include... </h3>
