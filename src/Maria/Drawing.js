@@ -1,9 +1,11 @@
 import majima from "./Images/majima.png";
-
+import IndexDrawing from "../Maria/Drawing.css";
 function Drawing() {
   return (
     <div>
-      <h1>Goro, Majima from the Japanese game "Yakuza 0"</h1>
+      <h1>
+        Goro, Majima from the Japanese game <i>Yakuza 0</i>
+      </h1>
       <figure>
         <img
           srcSet={majima}

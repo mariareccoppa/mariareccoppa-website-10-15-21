@@ -1,0 +1,56 @@
+body {
+  font-family: "Impact ,Geneva, sans-serif;";
+  font-size: medium;
+  line-height: 1.7em;
+  background-color: #ccccff;
+}
+h1 {
+  font-size: 200%;
+}
+#Drawing {
+  border: thick #660066 dotted;
+}
+
+h2,
+h3 {
+  font-size: 150%;
+  background-color: #5335;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+#main {
+  background: top left;
+  font-size: 105%;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+}
+#sidebar {
+  background: bottom right;
+  font-size: 105%;
+  float: right;
+  padding: 15px;
+  margin: 0px 10px 10px 10px;
+}
+.table {
+  display: table;
+  border-spacing: 10px;
+}
+
+.row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0);
+  transition: opacity 0.25s;
+}
+.overlay:hover {
+  opacity: 0;
+}

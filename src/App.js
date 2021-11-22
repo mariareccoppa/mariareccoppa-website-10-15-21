@@ -1,7 +1,9 @@
 import "./styles.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Index from "./Maria/Index.js";
+import IndexCSS from "./Maria/Index.css";
 import Drawing from "./Maria/Drawing.js";
+import DrawingCSS from "./Maria/Drawing.css";
 
 export default function App() {
   return (
