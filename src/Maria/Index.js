@@ -61,21 +61,19 @@ function Index() {
           me even more curious! Ever since then I have always been interested in
           computers and technology.
         </p>
-        <h2>
-          I started coding this website on 9.10.21. I am excited to see how far
-          it will come!
-        </h2>
         <div id="sidebar">
-          <h2> Hope You enjoyed my website! </h2>
           <p>
-            {" "}
-            Hover your mouse over the box below to make the banana dissapear!{" "}
+            Hover your mouse over the box below to make the banana dissapear!
           </p>
           <div class="overlay">
             <img src={banana} alt="Peanut Butter Jelly Time Gif" />
           </div>
         </div>
       </div>
+      <h2>
+        I started coding this website on 9.10.21. I am excited to see how far it
+        will come!
+      </h2>
       <a href="https://github.com/mariareccoppa" target="_blank">
         My GitHub
       </a>
